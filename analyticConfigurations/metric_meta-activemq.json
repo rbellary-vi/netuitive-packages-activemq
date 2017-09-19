@@ -9,7 +9,7 @@
       "metricMatches" : "^activemq\\..*"
     },
     "metrics" : [ {
-      "match" : "activemq\\.org\\.apache\\.activemq\\.Broker\\.brokerName\\.localhost\\..*\\.QueueEnqueueCount",
+      "match" : "activemq\\.org\\.apache\\.activemq\\.Broker\\.brokerName\\..*\\.QueueEnqueueCount",
       "properties" : {
         "STATISTIC" : "sum",
         "tags" : {
