@@ -1,0 +1,22 @@
+{
+  "analyticConfiguration" : {
+    "type" : "METRIC_META",
+    "name" : "ActiveMQ",
+    "scope" : {
+      "elementName" : null,
+      "elementType" : "SERVER",
+      "elementTags" : null,
+      "metricMatches" : "^activemq\\..*"
+    },
+    "metrics" : [ {
+      "match" : "activemq\\.org\\.apache\\.activemq\\.Broker\\.brokerName\\.localhost\\..*\\.QueueEnqueueCount",
+      "properties" : {
+        "STATISTIC" : "sum",
+        "tags" : {
+          "unit" : "count"
+        },
+        "type" : "COUNTER"
+      }
+    } ]
+  }
+}
