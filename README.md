@@ -4,6 +4,10 @@ For detailed information on this package, please contact [Metricly support](http
 
 ## Release History
 
+### Version next
+
+* Adjusted build to use metricly-cli for validation
+
 ### Version 1.0.0
 
 * Initial production release
