@@ -1,22 +1,22 @@
 {
-  "analyticConfiguration" : {
-    "type" : "METRIC_META",
-    "name" : "ActiveMQ",
-    "scope" : {
-      "elementName" : null,
-      "elementType" : "SERVER",
-      "elementTags" : null,
-      "metricMatches" : "^activemq\\..*"
-    },
-    "metrics" : [ {
-      "match" : "activemq\\.org\\.apache\\.activemq\\.Broker\\.brokerName\\..*\\.QueueEnqueueCount",
-      "properties" : {
-        "STATISTIC" : "sum",
-        "tags" : {
-          "unit" : "count"
-        },
-        "type" : "COUNTER"
+  "analyticConfiguration": {
+    "metrics": [
+      {
+        "match": "activemq\\.org\\.apache\\.activemq\\.Broker\\.brokerName\\..*\\.QueueEnqueueCount",
+        "properties": {
+          "STATISTIC": "sum",
+          "tags": {
+            "unit": "count"
+          },
+          "type": "COUNTER"
+        }
       }
-    } ]
+    ],
+    "name": "ActiveMQ",
+    "scope": {
+      "elementType": "SERVER",
+      "metricMatches": "^activemq\\..*"
+    },
+    "type": "METRIC_META"
   }
 }
