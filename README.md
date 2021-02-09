@@ -1,3 +1,3 @@
-# netuitive.packages.activemq
+# cloudwisdom.packages.activemq
 
-For detailed information on this package, please contact [Virtana support](https://support.cloudwisdom.virtana.com/)
+For detailed information on this package, please contact [CloudWisdom support](https://support.cloudwisdom.virtana.com/)
